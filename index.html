@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="header row justify-content-center text-center py-2">
+    <!--Repeating banner .GIFs (some have classes so they can be clipped when resizing browswer)-->
         <div class="parrot-line">
             <img src="assets/images/congaparrot.gif" class="conga-parrot far-side" alt="PP" />
         </div>
@@ -39,29 +40,31 @@
     </div>
     <div class="container-fluid p-0 bg-dark text-light">
         <div class="row">
+    <!---------------------Banner on left side -------------------->
             <div class="col col-lg-2" id="left-banner">
                 <img src="assets/images/new-banner-one.jpg" id="left-pic" alt="left-side" />
             </div>
             <div class="col col-lg-8 pt-5">
+    <!--------------------- First page on-screen ----------------->
                 <div class="text-center" id="begin-page">
                     <h2>Do you know your parrots?!</h2>
                     <p>Test your trivia skills when you only have 20 seconds to answer each question!<br>
                     You have four choices per question! Good luck!</p>
                     <button class="btn btn-primary" id="start-game">Let's Go!</button>
                 </div>
-            <!-- Main Question/Answer Page -->
+    <!-------------------- Main Question/Answer Page ------------->
                 <div class="text-center" id="question-page">
                     <div id="time-left"></div>
                     <div id="your-question"></div> 
                     <div id="answer-list"></div>
                 </div>
-            <!-- Answer Page -->
+    <!------------------------- Answer Page ---------------------->
                 <div class="text-center" id="answer-page">
                     <div id="right-wrong"></div>  
                     <div id="correct-choice"></div>
                     <div id="reward-pic"></div>
                 </div>
-            <!-- Final Score Page -->
+    <!----------------------- Final Score Page ------------------->
                 <div class="text-center" id="end-page">    
                     <div id="game-outcome"></div>
                     <div id="right-guesses"></div>
@@ -70,6 +73,7 @@
                     <div id="another-game"></div>
                 </div>
             </div>
+    <!---------------------- Banner on right side----------------->
             <div class="col col-lg-2" id="right-banner">
                 <img src="assets/images/new-banner-two.jpg" id="right-pic" alt="right-side" />
             </div>
