@@ -1,0 +1,68 @@
+#left-pic,
+#right-pic {
+    height: 500px;
+}
+
+.header h1 {
+    padding-top: 10px;
+    color: rgb(252, 252, 121);
+    text-shadow: 5px 5px 10px rgb(10, 17, 56);
+}
+
+.parrot-line {
+    float: left;
+}
+
+.header {
+    background-image: linear-gradient(aquamarine, indigo, rgb(221, 20, 188));
+}
+
+.pick-one {
+    margin-top: 25px;
+}
+
+.pick-one:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+
+@media only screen and (max-width: 1275px) {
+
+    .far-side {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    
+    .out-side {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px) {
+   
+    #right-banner,
+    #left-banner {
+        max-width: 200px;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    
+    .header h1 {
+        display: none;
+    }
+
+    .col-lg-8 {
+        height: 400px;
+    }
+
+    #right-banner,
+    #left-banner {
+        display: none;
+    }
+}
