@@ -69,9 +69,9 @@ function newGame() {
 function nextQuestion() {
    $("#answer-page").hide();
    $("#question-page").show();
-   $("#time-left").text("");
+   $("#time-left").text("Time left: 15 seconds!");
    var yourGuess = "";
-   var seconds = 16;
+   var seconds = 15;
    var time = setInterval(function() {
       seconds -=1;
       console.log(seconds);
