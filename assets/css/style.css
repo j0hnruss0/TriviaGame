@@ -72,7 +72,11 @@
         height: 600px;
     }
 
-    .header {
-        overflow: hidden;
+    .mobile-cut {
+        display: none;
+    }
+
+    .reward-pic img {
+        width: 90%;
     }
 }
