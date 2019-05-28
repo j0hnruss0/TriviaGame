@@ -76,7 +76,7 @@
         display: none;
     }
 
-    .reward-pic img {
-        width: 90%;
+    #reward-pic img {
+        width: 55%;
     }
 }
